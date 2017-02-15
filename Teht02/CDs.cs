@@ -6,29 +6,29 @@ using System.Threading.Tasks;
 
 namespace Teht02
 {
-    class Songs
+    class CDs
     {
         //collection
-        private List<Song> songs;
+        private List<CD> cds;
 
         //default constructor
-        public Songs()
+        public CDs()
         {
-            songs = new List<Song>();
+            cds = new List<CD>();
         }
 
-        //add song to list
-        public void AddSong(Song song)
+        //add cd to list
+        public void AddCd(CD cd)
         {
-            songs.Add(song);
+            cds.Add(cd);
         }
 
         //print list
         public void PrintCollection()
         {
-            foreach (Song song in songs)
+            foreach (CD cd in cds)
             {
-                Console.WriteLine(song.ToString());
+                Console.WriteLine(cd.ToString());
             }
 
         }

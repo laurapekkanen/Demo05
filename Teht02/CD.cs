@@ -14,7 +14,7 @@ namespace Teht02
 
         public override string ToString()
         {
-            return Name + " " + Artist + " " + Price;
+            return "CD data: " + "\n- name: " + Name + "\n- artist: " + Artist + "\n- price: " + Price + "\n- songs:";
         }
 
     }

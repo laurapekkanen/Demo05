@@ -14,7 +14,7 @@ namespace Teht02
 
         public override string ToString()
         {
-            return base.ToString() + Number + " " + Title + " " + Length;
+            return "  - " + Number + " " + Title + ", " + Length;
         }
     }
 }
